@@ -11,7 +11,15 @@ const Me = () => {
         </h2>
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
           <p className="py-4 max-w-lg mx-auto text-blue-600">
-          Innovative, task-driven experience in Web design and development in identifying web-based user interactions along with designing & implementing highly responsive user interfaces. Proficient in translating design & wireframes into high-quality code. Creating user interfaces and impelementing new features based on user's feedback. Adept at monitoring & maintaining frontend perfomance, troubleshooting & debugging Simple to complex issues. I have 3 years of experince building and designing Web Applications, using technologies such as React, Tailwind, Next js, Node js and GraphQl 
+          Innovative, task-driven experience in Web design and
+           development in identifying web-based user interactions
+            along with designing & implementing highly responsive user
+             interfaces. Proficient in translating design & wireframes
+              into high-quality code. Creating user interfaces and impelementing
+               new features based on users feedback. Adept at monitoring & maintaining
+                frontend perfomance, troubleshooting & debugging Simple to complex issues
+                . I have 3 years of experince building and designing Web Applications, 
+                using technologies such as React, Tailwind, Next js, Node js and GraphQl 
           </p>
           
         </div>
