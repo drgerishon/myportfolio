@@ -37,7 +37,7 @@ const Homepage = () => {
            Simple to complex issues.
           I have 3 years of experince building and designing Web Applications, using technologies such
           as React, Tailwind, Next js, Node js and GraphQl        </p>
-        <Link href="/Waichua_cv.pdf" download={true}>
+        <Link href="/Waichua cv.pdf" download={true}>
             <div
               className="group flex items-center justify-center
                 my-8 text-white px-6 py-3 font-bold
