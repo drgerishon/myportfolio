@@ -24,10 +24,7 @@ const Contact = () => {
         <div className="w-full md:w-1/2 h-full rounded-xl p-4">
           <Image src={contactus} alt="" className="rounded-xl" />
           <p className="pt-2 pb-8 text-blue-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            perferendis reprehenderit culpa! Commodi, deleniti
-            reiciendis?blue-300 Repellendus ipsum nam, ullam modi corrupti rerum
-            molestias doloribus mollitia aut cum, rem quam assumenda.
+            Send me a message...
           </p>
 
           <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
@@ -103,13 +100,12 @@ const Contact = () => {
                   </label>
                   <textarea
                     name="message"
-                    rows="10"
+                    rows="6"
                     className="border-2 rounded-lg p-3 flex focus:outline-none
                        border-blue-200"
                   ></textarea>
                 </div>
-              </div>
-              <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center">
                 <button
                   className="my-8 bg-blue-500 text-white px-6 py-3 
                       font-bold uppercase rounded-md tracking-wider cursor-pointer
@@ -118,6 +114,8 @@ const Contact = () => {
                   Send Message
                 </button>
               </div>
+              </div>
+            
             </form>
           </div>
         </div>
