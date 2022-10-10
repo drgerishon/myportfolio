@@ -40,7 +40,7 @@ const Homepage = () => {
         <Link href="/Waichua_cv.pdf" download={true}>
             <div
               className="group flex items-center justify-center
-                my-8 bg-blue-500 text-white px-6 py-3 font-bold
+                my-8 text-white px-6 py-3 font-bold
                 uppercase rounded-md tracking-wider cursor-pointer bg-sky-500 hover:bg-sky-700"
             >
             Click to view my resume
