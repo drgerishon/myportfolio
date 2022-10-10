@@ -51,7 +51,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
         <Link href="/">
-          <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider text-blue-800 underline cursor-pointer">
+          <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider text-white cursor-pointer">
             Gerishon Waichua
           </h1>
         </Link>
