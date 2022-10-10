@@ -6,14 +6,15 @@ import profile from '../public/assets/profile.png';
 import proj2 from '../public/assets/proj2.PNG';
 import proj3 from '../public/assets/proj3.PNG';
 import proj4 from '../public/assets/proj4.PNG';
+import viewke from '../public/assets/viewke.PNG';
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: 'react weather app',
-      imgSrc: profile,
-      url: 'react-weather',
+      title: 'View Ke',
+      imgSrc: viewke,
+      url: 'View Kenya',
     },
     {
       id: 2,
