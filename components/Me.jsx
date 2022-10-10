@@ -7,21 +7,18 @@ const Me = () => {
     <div id="me" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="text-xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
-         About me
+          About me
         </h2>
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
           <p className="py-4 max-w-lg mx-auto text-blue-600">
-          Innovative, task-driven experience in Web design and
-           development in identifying web-based user interactions
-            along with designing & implementing highly responsive user
-             interfaces. Proficient in translating design & wireframes
-              into high-quality code. Creating user interfaces and impelementing
-               new features based on users feedback. Adept at monitoring & maintaining
-                frontend perfomance, troubleshooting & debugging Simple to complex issues
-                . I have 3 years of experince building and designing Web Applications, 
-                using technologies such as React, Tailwind, Next js, Node js and GraphQl 
+            An experienced Software developer adept in all stages of software
+            development from system requirements, system design, coding, testing
+            to deployment. Am proficient in an assortment of technologies such
+            as JavaScript, NodeJs, ReactJs, ASP.Net, C#, MongoDB, Microsoft SQL,
+            Postgres among others. Am well able to effectively self-manage
+            during independent projects as well as collaborating in team
+            settings
           </p>
-          
         </div>
         <div className="flex items-center justify-center gap-10">
           <Link href="/Waichua_cv.pdf" download={true}>
