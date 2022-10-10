@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="w-full md:w-1/2 h-full rounded-xl p-4">
           <Image src={contactus} alt="" className="rounded-xl" />
           <p className="pt-2 pb-8 text-blue-600">
-            Send me a message...
+            Send me a message...  
           </p>
 
           <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
