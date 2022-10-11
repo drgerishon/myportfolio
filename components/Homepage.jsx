@@ -66,6 +66,7 @@ const Homepage = () => {
               <FaGithub size={25} />
             </div>
             <p className="text-1xl text-blue-600 font-sans hover:font-serif" >Email: gerishonk@gmail.com</p>
+            <br/>
             <p className="text-1xl text-blue-600 font-sans hover:font-serif">Contact: 0708953968</p>
           </div>
           </div>
