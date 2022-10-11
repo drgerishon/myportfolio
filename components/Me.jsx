@@ -21,7 +21,7 @@ const Me = () => {
           </p>
         </div>
         <div className="flex items-center justify-center gap-10">
-          <Link href="/Waichua_cv.pdf" download={true}>
+          <Link href="/Waichua cv.pdf" download={true}>
             <div
               className="group flex items-center justify-center
                 my-8 bg-blue-500 text-white px-6 py-3 font-bold

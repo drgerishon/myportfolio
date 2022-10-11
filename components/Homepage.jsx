@@ -53,7 +53,7 @@ const Homepage = () => {
           <div className="p-4 text-left">
           
           <div className="w-64 h-64 mx-auto overflow-hidden rounded-xl">
-          <Image className='hover:animate-spin' src={profile} alt="" />
+          <Image className='transition duration-200 ease-in-out transform sm:hover:scale-105 hover:z-50' src={profile} alt="" />
         </div>
         
         <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
