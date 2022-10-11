@@ -45,8 +45,7 @@ const Portfolio = () => {
           Sample Projects
         </h2>
         <p className="py-4 max-w-lg text-blue-600">
-          Here are sample display of my past projects that i have developed in
-          my jornet to become a professional wed developer
+          Sample projects
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
