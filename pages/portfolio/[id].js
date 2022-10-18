@@ -4,7 +4,7 @@ import proj2 from '../../public/assets/proj2.PNG';
 import proj3 from '../../public/assets/proj3.PNG';
 import proj4 from '../../public/assets/proj4.PNG';
 import viewke from '../../public/assets/viewke.PNG';
-
+import seaenergy from '../../public/assets/seaenergy.PNG';
 
 import { FaGithub } from 'react-icons/fa';
 import { AiOutlineCaretRight } from 'react-icons/ai';
@@ -21,9 +21,9 @@ const portfolios = [
   },
   {
     id: 2,
-    title: 'View Ke',
-    imgSrc: proj3,
-    url: 'viewke.com',
+    title: 'Seahorse Energy Limited',
+    imgSrc: seaenergy,
+    url: 'seahorsenergy',
   },
   {
     id: 3,
@@ -86,12 +86,9 @@ const OnePortfolio = ({ portfolio: { title, imgSrc } }) => {
         <h2 className="text-center md:text-left my-4 text-2xl font-bold">
           Description
         </h2>
-        <p>
-          This website is build on Next Js and Node for a client for his
-          company.
-        </p>
+        <p>Kindly check the project descriprtion demo and repo from github</p>
         <div className="flex items-center justify-center gap-10">
-          <Link href="https://viewsasa.vercel.app/">
+          <Link target='_blank' href="https://viewsasa.vercel.app/">
             <div
               className="group flex items-center justify-center
                 my-8 bg-blue-500 text-white px-6 py-3 font-bold
@@ -103,7 +100,7 @@ const OnePortfolio = ({ portfolio: { title, imgSrc } }) => {
               </span>
             </div>
           </Link>
-          <Link href="https://github.com/drgerishon/view_ke">
+          <Link href="https://github.com/drgerishon/">
             <div
               className="group flex items-center justify-center
                 my-8 bg-blue-500 text-white px-6 py-3 font-bold

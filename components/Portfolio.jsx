@@ -7,6 +7,7 @@ import proj2 from '../public/assets/proj2.PNG';
 import proj3 from '../public/assets/proj3.PNG';
 import proj4 from '../public/assets/proj4.PNG';
 import viewke from '../public/assets/viewke.PNG';
+import seaenergy from '../public/assets/seaenergy.PNG'
 
 const Portfolio = () => {
   const portfolios = [
@@ -18,9 +19,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: 'View Ke',
-      imgSrc: proj3,
-      url: 'viewke.com',
+      title: 'Seahorse Energy Limited',
+      imgSrc: seaenergy,
+      url: 'seahorsenergy',
     },
     {
       id: 3,
@@ -45,7 +46,8 @@ const Portfolio = () => {
           Sample Projects
         </h2>
         <p className="py-4 max-w-lg text-blue-600">
-          Sample projects
+          Here are sample display of my past projects that i have developed in
+          my jornet to become a professional wed developer
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">

@@ -6,6 +6,7 @@ import proj2 from '../../public/assets/proj2.PNG';
 import proj3 from '../../public/assets/proj3.PNG';
 import proj4 from '../../public/assets/proj4.PNG';
 import viewke from '../../public/assets/viewke.PNG';
+import seaenergy from '../../public/assets/seaenergy.PNG';
 
 export const getServerSideProps = async () => {
   const portfolios = [
@@ -17,9 +18,9 @@ export const getServerSideProps = async () => {
     },
     {
       id: 2,
-      title: 'View Ke',
-      imgSrc: proj3,
-      url: 'viewke.com',
+      title: 'Seahorse Energy Limited',
+      imgSrc: seaenergy,
+      url: 'seahorsenergy',
     },
     {
       id: 3,
