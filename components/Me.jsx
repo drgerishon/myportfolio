@@ -10,10 +10,11 @@ const Me = () => {
           About me
         </h2>
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
-          <p className="py-4 max-w-lg mx-auto text-blue-600">
-            I build new porjects just to tickle my brain Am personate about web
+          <p className="py-4 max-w-lg text-blue-600">
+            I build new projects just to tickle my brain.
+            Am personate about web
             development and offer all solutions related to fullstack web
-            development Fullstack developer with primary focus on:
+            development. Am proficient in the technologies below:
             <li>React </li>
             <li>Node</li>
             <li>MongoDb</li>
