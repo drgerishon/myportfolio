@@ -23,16 +23,17 @@ export const getServerSideProps = async () => {
     },
     {
       id: 3,
-      title: 'kanairo cafe',
-      imgSrc: proj4,
-      url: 'kanairocafe.com',
-    },
-    {
-      id: 4,
       title: 'SeaEnergy',
       imgSrc: proj2,
       url: 'energyhorse.com',
     },
+    // {
+    //   id: 4,
+    //   title: 'kanairo cafe',
+    //   imgSrc: proj4,
+    //   url: 'kanairocafe.com',
+    // },
+   
   ];
 
   return {

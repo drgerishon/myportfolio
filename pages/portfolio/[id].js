@@ -37,14 +37,14 @@ const portfolios = [
     link: "https://gshonwebsolutions.vercel.app/products/production",
     githubLink: "https://github.com/drgerishon/gshon_solutions"
   },
-  {
-    id: 4,
-    title: 'kanairo cafe',
-    imgSrc: proj4,
-    url: 'kanairocafe.com',
-    link: "",
-    githubLink: ""
-  },
+  // {
+  //   id: 4,
+  //   title: 'kanairo cafe',
+  //   imgSrc: proj4,
+  //   url: 'kanairocafe.com',
+  //   link: "",
+  //   githubLink: ""
+  // },
  
 ];
 

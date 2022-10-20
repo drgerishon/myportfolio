@@ -2,10 +2,10 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 import { MdExpandMore } from 'react-icons/md';
-import profile from '../public/assets/profile.png';
-import proj2 from '../public/assets/proj2.PNG';
+// import profile from '../public/assets/profile.png';
+// import proj2 from '../public/assets/proj2.PNG';
 import proj5 from '../public/assets/proj5.PNG';
-import proj4 from '../public/assets/proj4.PNG';
+// import proj4 from '../public/assets/proj4.PNG';
 import viewke from '../public/assets/viewke.PNG';
 import seaenergy from '../public/assets/seaenergy.PNG'
 
@@ -30,12 +30,12 @@ const Portfolio = () => {
       url: 'energyhorse.com',
     },
 
-    {
-      id: 4,
-      title: 'kanairo cafe',
-      imgSrc: proj4,
-      url: 'kanairocafe.com',
-    },
+    // {
+    //   id: 4,
+    //   title: 'kanairo cafe',
+    //   imgSrc: proj4,
+    //   url: 'kanairocafe.com',
+    // },
   
   ];
   return (
