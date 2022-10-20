@@ -1,7 +1,7 @@
 import React from 'react';
 // import profile from '../../public/assets/profile.png';
 import proj2 from '../../public/assets/proj2.PNG';
-import proj3 from '../../public/assets/proj3.PNG';
+import proj5 from '../../public/assets/proj5.PNG';
 import proj4 from '../../public/assets/proj4.PNG';
 import viewke from '../../public/assets/viewke.PNG';
 import seaenergy from '../../public/assets/seaenergy.PNG';
@@ -18,25 +18,32 @@ const portfolios = [
     title: 'View Ke',
     imgSrc: viewke,
     url: 'View Kenya',
+    link: "https://viewsasa.vercel.app/",
+    githubLink: "https://github.com/drgerishon/view_254"
   },
   {
     id: 2,
     title: 'Seahorse Energy Limited',
     imgSrc: seaenergy,
     url: 'seahorsenergy',
+    link: "https://seahorsenergy.com/",
+    githubLink: "https://github.com/bond50/seahorse"
   },
   {
     id: 3,
+    title: 'Gshon web Solutions',
+    imgSrc: proj5,
+    url: 'energyhorse.com',
+    link: "https://gshonwebsolutions.vercel.app/products/production",
+    githubLink: "https://github.com/drgerishon/gshon_solutions"
+  },
+  {
+    id: 4,
     title: 'kanairo cafe',
     imgSrc: proj4,
     url: 'kanairocafe.com',
   },
-  {
-    id: 4,
-    title: 'SeaEnergy',
-    imgSrc: proj2,
-    url: 'energyhorse.com',
-  },
+ 
 ];
 
 const getPortfolioFrom = (url) => portfolios.filter((p) => p.url === url)[0];
@@ -60,7 +67,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OnePortfolio = ({ portfolio: { title, imgSrc } }) => {
+const OnePortfolio = ({ portfolio: { title, imgSrc, link, githubLink} }) => {
   return (
     <div className="h-fit w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
@@ -88,7 +95,7 @@ const OnePortfolio = ({ portfolio: { title, imgSrc } }) => {
         </h2>
         <p>Kindly check the project descriprtion demo and repo from github</p>
         <div className="flex items-center justify-center gap-10">
-          <Link target='_blank' href="https://viewsasa.vercel.app/">
+          <Link href={link} target="_blank" rel="noopener noreferrer">
             <div
               className="group flex items-center justify-center
                 my-8 bg-blue-500 text-white px-6 py-3 font-bold
@@ -100,7 +107,7 @@ const OnePortfolio = ({ portfolio: { title, imgSrc } }) => {
               </span>
             </div>
           </Link>
-          <Link href="https://github.com/drgerishon/">
+          <Link href={githubLink} target="_blank" rel="noopener noreferrer">
             <div
               className="group flex items-center justify-center
                 my-8 bg-blue-500 text-white px-6 py-3 font-bold

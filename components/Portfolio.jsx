@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { MdExpandMore } from 'react-icons/md';
 import profile from '../public/assets/profile.png';
 import proj2 from '../public/assets/proj2.PNG';
-import proj3 from '../public/assets/proj3.PNG';
+import proj5 from '../public/assets/proj5.PNG';
 import proj4 from '../public/assets/proj4.PNG';
 import viewke from '../public/assets/viewke.PNG';
 import seaenergy from '../public/assets/seaenergy.PNG'
@@ -25,16 +25,18 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      title: 'SeaEnergy',
+      imgSrc: proj5,
+      url: 'energyhorse.com',
+    },
+
+    {
+      id: 4,
       title: 'kanairo cafe',
       imgSrc: proj4,
       url: 'kanairocafe.com',
     },
-    {
-      id: 4,
-      title: 'SeaEnergy',
-      imgSrc: proj2,
-      url: 'energyhorse.com',
-    },
+  
   ];
   return (
     <div id="portfolio" className="w-full">
