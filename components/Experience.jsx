@@ -64,8 +64,7 @@ const Experience = () => {
           experience
         </h2>
         <p className="py-4 max-w-lg text-blue-600">
-          Here are sample display of my past projects that i have developed in
-          my jornet to become a professional wed developer
+          I have 3 years of experience working with below technologies...
         </p>
 
         <div className="grid lg:grid-cols-4 gap-8">
