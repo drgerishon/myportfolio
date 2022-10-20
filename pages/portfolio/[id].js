@@ -42,6 +42,8 @@ const portfolios = [
     title: 'kanairo cafe',
     imgSrc: proj4,
     url: 'kanairocafe.com',
+    link: "",
+    githubLink: ""
   },
  
 ];
