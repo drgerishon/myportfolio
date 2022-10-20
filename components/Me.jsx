@@ -9,21 +9,11 @@ const Me = () => {
         <h2 className="text-xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
           About me
         </h2>
-        <div className="shadow-xl shadow-blue-300 my-8 px-8">
-          <p className="py-4 max-w-lg text-blue-600">
-            I build new projects just to tickle my brain.
-            Am personate about web
-            development and offer all solutions related to fullstack web
-            development. Am proficient in the technologies below:
-            <li>React </li>
-            <li>Node</li>
-            <li>MongoDb</li>
-            <li>Google Maps API</li>
-            <li>Postgres</li>
-            <li>Sanity CMS</li>
-            <li>AWS</li>
-          </p>
-        </div>
+        <p className="py-4 max-w-lg text-blue-600">
+          I build new projects just to tickle my brain. Am personate about web
+          development and offer all solutions related to fullstack web
+          development.
+        </p>
         <div className="flex items-center justify-center gap-10">
           <Link href="/Waichua cv.pdf" download={true}>
             <div
