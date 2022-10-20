@@ -95,7 +95,8 @@ const OnePortfolio = ({ portfolio: { title, imgSrc, link, githubLink} }) => {
         </h2>
         <p>Kindly check the project descriprtion demo and repo from github</p>
         <div className="flex items-center justify-center gap-10">
-          <Link href={link} target="_blank" rel="noopener noreferrer">
+          <Link href={link}>
+          <a target="_blank">
             <div
               className="group flex items-center justify-center
                 my-8 bg-blue-500 text-white px-6 py-3 font-bold
@@ -106,8 +107,10 @@ const OnePortfolio = ({ portfolio: { title, imgSrc, link, githubLink} }) => {
                 <AiOutlineCaretRight size={25} className="ml-2" />
               </span>
             </div>
+            </a>
           </Link>
-          <Link href={githubLink} target="_blank" rel="noopener noreferrer">
+          <Link href={githubLink}>
+          <a target="_blank">
             <div
               className="group flex items-center justify-center
                 my-8 bg-blue-500 text-white px-6 py-3 font-bold
@@ -121,6 +124,7 @@ const OnePortfolio = ({ portfolio: { title, imgSrc, link, githubLink} }) => {
                 <FaGithub size={25} className="ml-2" />
               </span>
             </div>
+            </a>
           </Link>
         </div>
       </div>
