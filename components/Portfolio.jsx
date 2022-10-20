@@ -25,7 +25,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'SeaEnergy',
+      title: 'Gshon web Solutions',
       imgSrc: proj5,
       url: 'energyhorse.com',
     },
