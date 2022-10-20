@@ -11,13 +11,16 @@ const Me = () => {
         </h2>
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
           <p className="py-4 max-w-lg mx-auto text-blue-600">
-            An experienced Software developer adept in all stages of software
-            development from system requirements, system design, coding, testing
-            to deployment. Am proficient in an assortment of technologies such
-            as JavaScript, NodeJs, ReactJs, ASP.Net, C#, MongoDB, Microsoft SQL,
-            Postgres among others. Am well able to effectively self-manage
-            during independent projects as well as collaborating in team
-            settings
+            I build new porjects just to tickle my brain Am personate about web
+            development and offer all solutions related to fullstack web
+            development Fullstack developer with primary focus on:
+            <li>React </li>
+            <li>Node</li>
+            <li>MongoDb</li>
+            <li>Google Maps API</li>
+            <li>Postgres</li>
+            <li>Sanity CMS</li>
+            <li>AWS</li>
           </p>
         </div>
         <div className="flex items-center justify-center gap-10">
