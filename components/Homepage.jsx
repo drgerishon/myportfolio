@@ -51,12 +51,16 @@ const Homepage = () => {
             </div>
 
             <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
+              <a href="https://linkedin.com/in/gerishonkungu/">
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                 <FaLinkedin size={25} />
               </div>
+              </a>
+              <a href="https://github.com/drgerishon/">
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                 <FaGithub size={25} />
               </div>
+               </a>
               <p className="text-1xl text-blue-600 font-sans">
                 Email: gerishonk@gmail.com
               </p>
